@@ -1,0 +1,75 @@
+#display {
+    position: absolute;
+    top: 0%;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    width: 100vw;
+}
+
+#backgroundDiv {
+    position: relative;
+    background-image: url("img/bg1.jpg");
+    width: 100%;
+    height: 300px;
+    background-position: 0px 0px;
+}
+
+#title {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 20vw;
+    height: 5vh;
+}
+
+#description {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 20vw;
+    height: 5vh;
+}
+
+#menuControl {
+    position: fixed;
+    left: 45%;
+    bottom: -200px;
+    width: 150px;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    border: 2px solid black;
+    transition: 0.5s;
+}
+
+.menuButton {
+    position: relative;
+    text-align: center;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-top: 10px;
+    width: 80%;
+    height: 15%;
+    border: 0px;
+    background color: #c4bfbf;
+}
+
+#openMenu {
+    position: relative;
+    bottom: 217px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    height: 15%;
+    background-color: #c4bfbf;
+}
+
+.inputs {
+    position: relative;
+    width: 80%;
+    margin-top: 10px;
+}
